@@ -1,0 +1,60 @@
+@use 'variable' as *;
+@use 'common' as *;
+
+.header {
+    display: flex;
+
+    &__logo {
+        width: 120px;
+    }
+
+
+    nav {
+        display: flex;
+        column-gap: 32px;
+
+
+    }
+}
+
+
+
+
+.nav {
+    &-menu {
+        display: flex;
+        align-items: center;
+        column-gap: 32px;
+
+    }
+}
+
+.fa-instagram {
+    font-size: 24px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+    width: 212px;
+    height: 48px;
+    border-right: 4px solid; // 修正: 完全な値に変更
+    font-family: $sans;
+
+    .fa-envelope {
+        margin-top: 3px;
+        font-size: 16px;
+    }
+
+    &--fill {
+        background-color: $mainColor1;
+        color: $TextColor2;
+
+        &:hover {
+            background-color: darken($mainColor1, 10%); // ホバー時の背景色を追加
+            color: lighten($TextColor2, 10%); // ホバー時のテキスト色を追加
+        }
+    }
+}

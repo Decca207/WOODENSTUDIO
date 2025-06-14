@@ -1,0 +1,22 @@
+@use 'variable' as *;
+
+body {
+    color: $TextColor1;
+    font-family: $caslon, $serif, $sans, serif;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+}
+
+li {
+    list-style: none;
+}
