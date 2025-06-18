@@ -1,17 +1,32 @@
 １．プロジェクトの作成とアセットの追加
 
-２．リセットCSS(+CDN)
+2. リセットCSS(+CDN)
 
-３．WEBフォントの登録
+3. WEBフォントの登録
 
-４．FontAwesomeの登録
+4. FontAwesomeの登録
 
 ------Sass（サス）の話------
 
-５．カラーコード・フォントの登録
+5. カラーコード・フォントの登録
 
-６．共通スタイルの追加
+6. 共通スタイルの追加
 
-７．Scssの追加
+7. Scssの追加
 
-８．WEB制作
+8. WEB制作
+
+
+BEM
+-Block
+-Element
+-Modifier
+
+Header(Block)
+>header__logo(Element)
+>nav(Block)
+>>nav-menu(Block)
+>>>nav-menu__link(Element)
+>>btn(Block)
+>>>btn__icon(Element)
+>>>btn__text(Element)
