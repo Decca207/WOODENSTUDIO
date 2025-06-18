@@ -1,6 +1,6 @@
-@use "variable" as *;
+@use 'variable' as *;
 
-//セクション見出し
+// セクションの見出し
 .section-head {
     margin-bottom: 96px;
 
@@ -12,52 +12,73 @@
 
     &--brown {
         color: $mainColor2;
-
     }
 
     &--white {
-        color: $TextColor2;
+        color: $textColor2;
     }
-
 }
 
+// ナビゲーション
 .nav {
     &-menu {
         display: flex;
         align-items: center;
         column-gap: 32px;
-
     }
 }
 
+// インスタグラムのアイコン
 .fa-instagram {
     font-size: 24px;
 }
 
+// ボタン
 .btn {
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: 4px;
-    width: 212px;
     height: 48px;
-    border-right: 4px;
+    width: 212px;
+    border-radius: 4px;
+
     font-family: $sans;
 
     .fa-envelope {
-        margin-top: 3px;
+        margin-top: 2px;
         font-size: 16px;
     }
 
     &--fill {
         background-color: $mainColor1;
-        color: $TextColor2;
+        color: $textColor2;
     }
 
     &--stroke {
-        border: 2px solid $mainColor1;
+        border: 1px solid $mainColor1;
+        background-color: $baseColor1;
         color: $mainColor1;
     }
+}
 
+// ソーシャルアイコン
+.social-icons {
+    display: flex;
+    column-gap: 16px;
 
+    .social-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: $accentColor;
+
+        &__icon {
+            color: $textColor2;
+            font-size: 24px;
+        }
+    }
 }
