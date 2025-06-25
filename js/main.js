@@ -20,7 +20,7 @@ mm.add("(min-width: 1025px)", () => {
             scrollTrigger: {
                 trigger: ".concept-first .column-left",
                 start: "top center",
-                markers: true
+                markers: false
             }
         }
     )
@@ -44,7 +44,7 @@ mm.add("(min-width: 1025px)", () => {
             scrollTrigger: {
                 trigger: ".concept-first .column-right",
                 start: "top center",
-                markers: true
+                markers: false
             }
 
         }
@@ -71,7 +71,7 @@ mm.add("(max-width: 599px)", () => {
             scrollTrigger: {
                 trigger: ".concept-first .column-left",
                 start: "top center",
-                markers: true
+                markers: false
             }
         }
 
@@ -90,7 +90,7 @@ mm.add("(max-width: 599px)", () => {
             scrollTrigger: {
                 trigger: ".concept-first .column-right",
                 start: "top center",
-                markers: true
+                markers: false
             }
 
         }
